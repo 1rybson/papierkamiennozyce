@@ -1,0 +1,22 @@
+.content{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgb(42, 42, 252),rgb(2, 2, 151));
+    padding: 20px;
+}
+
+.reload{
+    display: none;
+}
+
+.score{
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.playerScore, .computerScore{
+    display: inline-block;
+}

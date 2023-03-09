@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>papier kamien nozyce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"   
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: 'Space Mono', monospace; font-size: 17px">
+    <div class="content">
+        <div class="title">
+            <h2>Papier, kamień, nożyce</h2>
+        </div>
+        <div class="score">
+            <div class="playerScore">
+                <h3>Gracz</h3>
+                <p class="p-count count">0</p>
+            </div>
+            <div class="computerScore">
+                <h3>Komputer</h3>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+        <div class="move">
+            wybierz ruch
+        </div>
+        <div class="movesleft">
+            Pozostało ruchów: 10
+        </div>
+        <div class="options mt-3">
+            <button type="button" class="rock btn btn-primary">Kamien</button>
+            <button type="button" class="paper btn btn-primary">Papier</button>
+            <button type="button" class="scissor btn btn-primary">Nozyce</button>
+        </div>
+        <div class="result">
+    
+        </div>
+    
+        <button type="button" class="reload btn btn-danger mt-3">Resetuj</button>
+    
+    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
